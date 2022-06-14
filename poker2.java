@@ -140,11 +140,7 @@ public class poker2 {
         }
         //carta alta
         if (d==0){  
-            for (int i = 1; i < num.length; i++) {
-                if (num[i] == 1) {
-                    System.out.println("Carta alta");
-                }
-            }
+            System.out.println("Carta alta"+numerosOrdenadosInt[4]);
         }
     }
 }
